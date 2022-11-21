@@ -1,19 +1,19 @@
-def valid_func(number, invalid_digits):
+def func(number, invalid_numbers):
     while(number!=0):
-        if str(number%10) in invalid_digits:
+        if str(number%10) in invalid_numbers:
             return False
         number = number//10
     return True
 
 num = int(input())
-valid_digits = "0125689"
-invalid_digits = "347"
+valid_numbers = "0125689"
+invalid_numbers = "347"
 
 count = 0
-start = 0
+run = 0
 
 while(count != num):
-    if valid_func(start, invalid_digits):
+    if func(run, invalid_numbers):
         count+=1
-    start +=1
-print(start)
+    run +=1
+print(run)
