@@ -1,0 +1,11 @@
+    1. Python 
+    2. urllib library in Python
+    3. bs4 (BeautifulSoup) in Python
+    4. requests library in Python
+
+
+Step:- 1
+    import the above mentioned in our Python file where we want to run the application 
+
+Step:- 2
+    we can use request library
